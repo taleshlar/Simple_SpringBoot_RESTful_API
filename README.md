@@ -1,6 +1,6 @@
 # embl-assignment
 
-Java version:11<br>
+JDK Version:11<br>
 
 To run:
 
