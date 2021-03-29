@@ -5,8 +5,8 @@ Java version:11<br>
 To run:
 
 1: In application.properties Set logback.logging-dir to desired path <br>
-2: In IntelliJ IDEA Set 'Use classpath of module' to bootstrap<br>
-3: Open http://localhost:8083/swagger-ui.html in a browser to read API documentation and Try APIs.<br>
+2: In IntelliJ IDEA create new configuration and Set 'bootstrap' as a module whose classpath should be used <br>and set Main class to 'ebi.ac.uk.Application' and working directory to %MODULE_WORKING_DIR% and run Application<br>
+3: Open http://localhost:8083/swagger-ui.html in a browser to read API documentation and try APIs in Swagger.<br>
 4: At first you must register a user with desired username and password and get related token<br>  
 <pre>curl -X POST "http://localhost:8083/public/users/register?password=testuser&username=testpass" -H "accept: */*"</pre>
 5: Then use your token as a Bearer Token to call APIs.<br>
