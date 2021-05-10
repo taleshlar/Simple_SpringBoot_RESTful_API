@@ -1,4 +1,4 @@
-# embl-assignment
+# Simple_SpringBoot_RESTful_API
 
 JDK Version:11<br>
 
